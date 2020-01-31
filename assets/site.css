@@ -5,12 +5,18 @@ body {
   margin: 0 auto;
   background: #fefefe;
 }
-/* Header */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
+
+/* Header */
 
 .header {
   padding-bottom: 50px;
@@ -30,11 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 .email {
   font-family: 'Roboto', sans-serif;
   margin: 5px 0 0 0;
-}
-
-.email a {
-  text-decoration: none;
-  color: #000;
 }
 
 .tag {
@@ -160,5 +161,41 @@ h1, h2, h3, h4, h5, h6 {
   .blurb h2 {
     white-space: nowrap;
   }
+}
+
+
+/* Experience */
+
+.experience {
+  margin: 50px 0;
+  background-color: #EEEEFF;
+  padding-left: 20px;
+}
+
+.experience h2 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.gig {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.gig p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 3px 0;
+}
+
+.gig p.company-name {
+  font-weight: bold;
+}
+
+.location {
+  width: 50%;
+  min-width: 300px;
+  max-width: 400px;
 }
 
