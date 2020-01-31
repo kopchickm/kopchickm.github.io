@@ -1,19 +1,27 @@
 body {
   margin: 0 auto;
+  background: #fefefe;
 }
-.header p, h1 {
+/* Header */
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.header p, h1 {
   padding-left: 20px;
 }
 
 .name {
+  font-family: 'Roboto', sans-serif;
   padding-top: 20px;
   margin: 0;
   font-size: 22px;
-  font-weight: bold;
 }
 
 .email {
+  font-family: 'Roboto', sans-serif;
   margin: 5px 0 0 0;
 }
 
@@ -39,10 +47,18 @@ body {
   filter: opacity(20%);
 }
 
+.arrow {
+  width: 100%;
+  text-align: center;
+}
 
-@media only screen and (min-width: 768px) {
+.arrow img {
+  width: 16px;
+}
+
+
+@media only screen and (min-width: 800px) {
   body {
-    width: 1025px;
     margin: 0 auto;
   }
 
@@ -79,4 +95,59 @@ body {
     margin-top: 150px;
     padding-left: 17px;
   }
+
+  .arrow {
+    text-align: left;
+    margin-left: 20px;
+  }
 }
+
+/* Client */
+
+.client {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.client {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.blurb {
+  margin: 0 20px;
+}
+
+.blurb p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.fhc {
+  background-color: rgba(18, 120, 198,.20);
+}
+
+.mfd {
+  background-color: rgba(200, 200, 200, .20);
+}
+
+@media only screen and (min-width: 800px) {
+  .client {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .blurb {
+    margin-top: 100px;
+  }
+
+  .blurb h2 {
+    white-space: nowrap;
+  }
+}
+
