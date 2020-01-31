@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   .background img {
     max-width: inherit;
     height: inherit;
+    max-height: 600px;
   }
 
   p.name {
