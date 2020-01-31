@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 1024px;
   height: 200px;
-  object-position: 0 -50px;
+  object-position: 0 25%;
   filter: opacity(20%);
 }
 
@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .background {
     width: calc(100% - 250px);
-    height: 550px;
     margin-left: 250px;
     top: 40px;
   }
@@ -84,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
   .background img {
     max-width: inherit;
     height: inherit;
-    /*height: 600px;*/
   }
 
   p.name {
