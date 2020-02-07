@@ -1,25 +1,7 @@
-html {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0 auto;
-  background: #fefefe;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-}
-
 /* Header */
 
 .header {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .header p, h1 {
@@ -28,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .name {
   font-family: 'Roboto', sans-serif;
-  padding-top: 20px;
+  padding-top: 0px;
   margin: 0;
   font-size: 22px;
 }
@@ -41,6 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 .tag {
   margin-top: 200px;
   font-weight: normal;
+}
+
+.subtag {
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 .background {
@@ -74,10 +62,10 @@ h1, h2, h3, h4, h5, h6 {
 
   /* header */
   .header {
-    margin-top: 80px;
+    margin-top: 60px;
     padding-bottom: 0;
     width: 100%;
-    height: 600px;
+    height: 500px;
   }
 
   .background {
@@ -89,22 +77,11 @@ h1, h2, h3, h4, h5, h6 {
   .background img {
     max-width: inherit;
     height: inherit;
-    max-height: 600px;
-  }
-
-  p.name {
-    margin: 0;
-    padding-top: 20px;
-    font-size: 22px;
-  }
-
-  p.email {
-    margin-top: 0;
+    max-height: 500px;
   }
 
   .tag {
     font-size: 54px;
-    margin-top: 150px;
     padding-left: 17px;
   }
 
@@ -138,6 +115,10 @@ h1, h2, h3, h4, h5, h6 {
 .blurb p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+}
+
+.blurb p a {
+  text-decoration: underline;
 }
 
 .fhc {
