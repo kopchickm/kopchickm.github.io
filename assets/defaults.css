@@ -15,3 +15,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
+
+/* social media / contact */
+
+.contact {
+  background-color: #EEEEFF;
+  display: flex;
+  flex-flow: row-reverse;
+  padding: 10px;
+}
+
+.contact div {
+  margin: auto 5px;
+
+}
+
+.contact img {
+  max-width: 30px;
+  max-height: 30px;
+}
