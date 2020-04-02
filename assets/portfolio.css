@@ -59,7 +59,7 @@
   line-height: 1.3;
 }
 
-.portfolio p {
+.portfolio p, li {
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
@@ -67,6 +67,12 @@
 .portfolio img {
   width: 100%;
   height: 100%;
+}
+
+.portfolio .vertical img {
+  max-height: 400px;
+  width: inherit;
+  height: inherit;
 }
 
 @media only screen and (min-width: 800px) {
@@ -133,5 +139,13 @@
 
   .images img {
     margin-left: -4.2%;
+  }
+
+  .vertical {
+    justify-content: space-between;
+  }
+
+  .no-shadow {
+    margin-left: 0;
   }
 }
