@@ -69,10 +69,13 @@
   height: 100%;
 }
 
+.portfolio .vertical div {
+  align-content: center;
+}
+
 .portfolio .vertical img {
-  max-height: 400px;
-  width: inherit;
-  height: inherit;
+  max-width: calc(100% - 10px);
+  margin-bottom: 20px;
 }
 
 .add-shadow {
@@ -150,10 +153,12 @@
   }
 
   .vertical img {
+    width: inherit;
+    max-height: 400px;
     margin-bottom: 40px;
   }
 
-  .images img.add-shadow {
+  .images img.no-shadow {
     margin-left: 0;
   }
 }
