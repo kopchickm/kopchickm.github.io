@@ -121,6 +121,20 @@ p, h1, h2, .arrow {
   height: auto;
 }
 
+.vertical {
+  width: 100%;
+  text-align: center;
+}
+
+.vertical img {
+  max-height: 400px;
+  margin: 40px 10px;
+}
+
+.add-shadow {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
 .client {
   width: 100%;
   margin: 30px 0;
@@ -148,6 +162,10 @@ p, h1, h2, .arrow {
 
 .mfd {
   background-color: rgba(200, 200, 200, .2);
+}
+
+.flexco {
+  background-color: rgba(244, 40, 46, .2);
 }
 
 @media only screen and (min-width: 800px) {

@@ -75,6 +75,10 @@
   height: inherit;
 }
 
+.add-shadow {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
 @media only screen and (min-width: 800px) {
   .nav-header {
     margin-top: 40px;
@@ -145,7 +149,11 @@
     justify-content: space-between;
   }
 
-  .no-shadow {
+  .vertical img {
+    margin-bottom: 40px;
+  }
+
+  .images img.add-shadow {
     margin-left: 0;
   }
 }
